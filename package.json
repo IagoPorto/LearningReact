@@ -20,6 +20,9 @@
   "devDependencies": {
     "standard": "^17.1.2"
   },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
   "dependencies": {
     "acorn": "^8.14.0",
     "acorn-jsx": "^5.3.2",
