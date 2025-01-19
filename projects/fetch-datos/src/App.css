@@ -1,7 +1,21 @@
 body{
-  background-color: #666;
+  background-color: #aaa;
 }
 
 h1 {
-  color:rgb(245, 4, 4);
+  color:#655575;
+}
+
+p {
+  color: #111;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: system-ui;
 }
